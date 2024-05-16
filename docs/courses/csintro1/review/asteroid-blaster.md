@@ -19,7 +19,7 @@ Create a spaceship for the player to control
 Add the ability for the player to fire lasers
 
 1. Create an ``||controller:on A button pressed||`` event
-2. In the event, create a ``||sprites:projectile from spaceship||`` with a ``||sprites:vx||`` of 0 and a ``||sprites:vy||`` of -100 
+2. In the event, create a ``||sprites:projectile from spaceship||`` with a ``||sprites:vx||`` of 0 and a ``||sprites:vy||`` of -500
 3. Change the image of each ``||sprites:projectile||`` image to be a laser - a one or two pixel line is enough
 4. Set the kind of each ``||sprites:projectile||`` kind to `Laser`
 5. Set the ``||sprites:z||`` value for the ``||sprites:projectile||`` to be -1, so that it appears below the ship
